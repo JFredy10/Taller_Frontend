@@ -22,10 +22,58 @@
             </div>
         </nav>  
     </header>
-  <main>
-    <section> <!-- hero --> </section>
-    <section> <!-- tarjetas -->
-      <article>…</article> <article>…</article> <article>…</article>
+<main>
+    <section class="hero"> 
+        <h1> Descubre tu proximo destino</h1>
+        <p>Encuentra las mejores ofertas de vuelo a tu medida</p>    
+    </section>
+    <section class="contenedor-principal">
+        <section class="panel-filtros">
+            <section class="barra-busqueda">
+                <apan>Origen: CTG</apan>
+                <apan>Destino: BOG</apan>
+                <apan>Fechas: Ida y vuelta</apan>
+                <button class="btn-buscar">Buscar pasajes</button>
+            </section>
+            <section class="filtros-vuelo aria-label="Filtros de vuelo">
+                <span class="filtros-etiqueta">Filtrar por:</span>
+                <label class="filtro">
+                    <input type="radio" name="tipo-vuelo" value="solo-ida" checked>
+                    <span>Solo ida</span>
+                </label>
+                <label class="filtro">
+                    <input type="radio" name="tipo-vuelo" value="ida-vuelta">
+                    <span>Ida y vuelta</span>
+                </label>
+                <label class="filtro">
+                    <input type="checkbox" name="cabina" value="economica" checked>
+                    <span>Economica</span>
+                </label>
+                <label class="filtro">
+                    <input type="checkbox" name="cabina" value="primera-clase" checked>
+                    <span>Primera Clase</span>
+                </label>
+                <label class="filtro">
+                    <input type="checkbox" name="ruta" value="directo">
+                    <span>Vuelo directo</span>
+                </label>
+                <label class="filtro">
+                    <input type="checkbox" name="ruta" value="conexion">
+                    <span>Vuelo con conexión</span>
+                </label>
+            </section>
+        </section>
+        <section> <!-- tarjetas -->
+            <article>
+
+            </article> 
+            <article>
+
+            </article>
+            <article>
+
+            </article>
+        </section>
     </section>
   </main>
   <footer></footer>

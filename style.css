@@ -47,3 +47,95 @@ nav button {
     background-color: #1B0088;
     color: #ffffff;
 }
+
+/* Contenedor main usando Grid */
+main {
+    display: grid;
+    gap: 15px;
+}
+
+/* Hero centrado usando Box Model */
+.hero {
+    background-color: #1B0088;
+    color: #ffffff;
+    padding: 60px 20px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+/* Contenedor interior con Grid */
+.contenedor-principal {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+}
+
+.panel-filtros {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    display: grid;
+    gap: 15px;
+}
+
+/* Fila única de elementos de búsqueda (Flexbox) */
+.barra-busqueda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.btn-buscar {
+    background-color: #E8114B;
+    color: #ffffff;
+    border: 1px solid #E8114B;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filtros-vuelo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.filtros-etiqueta {
+    color: #555555;
+    margin-right: 5px;
+}
+
+.filtro {
+    background-color: #ffffff;
+    color: #555555;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    padding: 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filtro span {
+    display: block;
+    padding: 9px 14px;
+}
+
+.filtro:has(input:checked) {
+    color: #1B0088;
+    border-color: #1B0088;
+    background-color: #f2f3ff;
+    font-weight: bold;
+}
+
+.filtro input {
+    position: absolute;
+    opacity: 0;
+}
