@@ -1,0 +1,49 @@
+/* Se usa Flexbox para organizar en fila los botones y enlaces de navegación */
+header {
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-izq, .nav-der {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo {
+    color: #E8114B; 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1B0088; 
+    padding: 8px 12px;
+    border: 1px solid #cccccc;
+}
+
+nav button {
+    padding: 8px 16px;
+    border: 1px solid #1B0088;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-secundario {
+    background-color: #ffffff;
+    color: #1B0088;
+}
+
+.btn-primario {
+    background-color: #1B0088;
+    color: #ffffff;
+}
