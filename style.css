@@ -185,3 +185,35 @@ main {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Cuadrícula de 2 columnas con Grid */
+.tarjetas-promociones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.tarjetas-promociones article {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    min-height: 120px;
+    background-color: #f9f9f9;
+}
+
+.tarjetas-promociones .promocion-ancha {
+    grid-column: span 2;
+}
+
+.tarjetas-promociones article h3 {
+    color: #E8114B;
+    margin-bottom: 10px;
+}
+
+/* Cierre de página */
+footer {
+    border: 1px solid #cccccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+}
