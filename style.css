@@ -1,3 +1,11 @@
+/* se aplica Box Model */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* Se usa Flexbox para organizar en fila los botones y enlaces de navegación */
 header {
     border: 1px solid #cccccc;
