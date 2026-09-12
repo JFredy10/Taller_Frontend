@@ -1,7 +1,7 @@
 ## Reserva de vuelos
 
 #### Layout
-![Layout](layout.png)
+![Layout](layout_1.png)
 
 ### Explicacion y Reflexion
 Se creo una pagina de reservas de vuelos, para esto se analizo como se encontraba estructurada la pagina de referencia en este caso fue la pagina de LATAM Airlaines, se creo el layout a partir de esta pagina, con esto se realizo la implementacion del codigo html y css, donde se aplico Grid y flexbox donde era necesario.
